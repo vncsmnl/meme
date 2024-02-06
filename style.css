@@ -4,6 +4,11 @@ body {
     background: -webkit-linear-gradient(to right, #d9fffe 0%, #fffeff 100%);
     background: linear-gradient(to right, #d9fffe 0%, #fffeff 100%);
     font-family: 'Fredoka', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 h3 {
@@ -12,18 +17,9 @@ h3 {
 }
 
 div#element {
-    width: 99vw;
-    height: 98vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-div {
     width: 300px;
-    height: 300px;
-    text-align: center
+    height: 500px;
+    text-align: center;
 }
 
 .button {
