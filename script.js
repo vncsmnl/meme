@@ -12,7 +12,7 @@ element.addEventListener("click", () => {
 });
 
 function openYoutube() {
-    window.open("https://www.youtube.com/shorts/RKvUys0hbko");
+    window.open("https://www.youtube.com/watch?v=Yo2GdogCAZc");
 }
 
 /* This JavaScript code is adding event listeners to the window object for the 'blur' and 'focus'
